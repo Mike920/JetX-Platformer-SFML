@@ -1,0 +1,112 @@
+﻿Build started 2014-02-05 10:33:28.
+     1>Project "C:\Users\Admin\Documents\Visual Studio 2012\Projects\Jet X Release\SFML2\SFML2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Programowanie\sfml projekt\sfml-tmxloader-master\include" /I"C:\SFML-2.1\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt Animation.cpp AnimationManager.cpp Bat.cpp Bug.cpp Coins.cpp "D:\Programowanie\sfml projekt\sfml-tmxloader-master\src\DebugShape.cpp" "D:\Programowanie\sfml projekt\sfml-tmxloader-master\src\MapLayer.cpp" "D:\Programowanie\sfml projekt\sfml-tmxloader-master\src\MapLoaderPrivate.cpp" "D:\Programowanie\sfml projekt\sfml-tmxloader-master\src\MapLoaderPublic.cpp" "D:\Programowanie\sfml projekt\sfml-tmxloader-master\src\MapObject.cpp" "D:\Programowanie\sfml projekt\sfml-tmxloader-master\src\pugixml\pugixml.cpp" "D:\Programowanie\sfml projekt\sfml-tmxloader-master\src\QuadTreeNode.cpp" EnemiesManager.cpp Enemy.cpp Entity.cpp ExitState.cpp Firebug.cpp Game.cpp GameState.cpp HelperClass.cpp LevelChange.cpp LevelComplete.cpp main.cpp MenuState.cpp PauseState.cpp Pickup.cpp Player.cpp PlayingState.cpp SelectLevel.cpp SplashScreen.cpp Star.cpp World.cpp
+         World.cpp
+     1>World.cpp(17): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+         Star.cpp
+         SplashScreen.cpp
+         SelectLevel.cpp
+     1>SelectLevel.cpp(59): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         PlayingState.cpp
+         Player.cpp
+     1>Player.cpp(21): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>Player.cpp(97): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>Player.cpp(269): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+         Pickup.cpp
+         PauseState.cpp
+     1>PauseState.cpp(62): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         MenuState.cpp
+     1>MenuState.cpp(63): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         main.cpp
+     1>main.cpp(13): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         LevelComplete.cpp
+         LevelChange.cpp
+         HelperClass.cpp
+         GameState.cpp
+         Game.cpp
+         Firebug.cpp
+     1>Firebug.cpp(8): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Firebug.cpp(15): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Firebug.cpp(19): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Firebug.cpp(20): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Firebug.cpp(21): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         ExitState.cpp
+         Entity.cpp
+         Enemy.cpp
+         EnemiesManager.cpp
+     1>EnemiesManager.cpp(55): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+         Compiling...
+         QuadTreeNode.cpp
+         pugixml.cpp
+         MapObject.cpp
+     1>D:\Programowanie\sfml projekt\sfml-tmxloader-master\src\MapObject.cpp(132): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>D:\Programowanie\sfml projekt\sfml-tmxloader-master\src\MapObject.cpp(250): warning C4267: 'initializing' : conversion from 'size_t' to 'sf::Uint16', possible loss of data
+         MapLoaderPublic.cpp
+         MapLoaderPrivate.cpp
+     1>D:\Programowanie\sfml projekt\sfml-tmxloader-master\src\MapLoaderPrivate.cpp(242): warning C4267: 'argument' : conversion from 'size_t' to 'sf::Uint16', possible loss of data
+     1>D:\Programowanie\sfml projekt\sfml-tmxloader-master\src\MapLoaderPrivate.cpp(293): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\Programowanie\sfml projekt\sfml-tmxloader-master\src\MapLoaderPrivate.cpp(782): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\Programowanie\sfml projekt\sfml-tmxloader-master\src\MapLoaderPrivate.cpp(982): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\Programowanie\sfml projekt\sfml-tmxloader-master\src\MapLoaderPrivate.cpp(995): warning C4267: '=' : conversion from 'size_t' to 'unsigned char', possible loss of data
+     1>D:\Programowanie\sfml projekt\sfml-tmxloader-master\src\MapLoaderPrivate.cpp(1013): warning C4267: '=' : conversion from 'size_t' to 'unsigned char', possible loss of data
+         MapLayer.cpp
+     1>D:\Programowanie\sfml projekt\sfml-tmxloader-master\src\MapLayer.cpp(66): warning C4267: 'initializing' : conversion from 'size_t' to 'sf::Uint16', possible loss of data
+         DebugShape.cpp
+         Coins.cpp
+     1>Coins.cpp(12): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Coins.cpp(25): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         Bug.cpp
+     1>Bug.cpp(7): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Bug.cpp(12): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Bug.cpp(13): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Bug.cpp(14): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Bat.cpp
+     1>Bat.cpp(12): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         AnimationManager.cpp
+         Animation.cpp
+     1>Animation.cpp(28): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>Animation.cpp(49): warning C4172: returning address of local variable or temporary
+         Generating Code...
+     1>c:\users\admin\documents\visual studio 2012\projects\jet x release\sfml2\animation.cpp(63): warning C4715: 'Animation::getMargin' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Admin\Documents\Visual Studio 2012\Projects\Jet X Release\x64\Debug\Jet x.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Programowanie\sfml projekt\sfml-tmxloader-master\lib" /LIBPATH:"C:\SFML-2.1\lib" zlibstat.lib "sfml-window-d.lib" "sfml-system-d.lib" "sfml-graphics-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Admin\Documents\Visual Studio 2012\Projects\Jet X Release\x64\Debug\Jet x.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Admin\Documents\Visual Studio 2012\Projects\Jet X Release\x64\Debug\Jet x.lib" /MACHINE:X64 x64\Debug\Animation.obj
+         x64\Debug\AnimationManager.obj
+         x64\Debug\Bat.obj
+         x64\Debug\Bug.obj
+         x64\Debug\Coins.obj
+         x64\Debug\DebugShape.obj
+         x64\Debug\MapLayer.obj
+         x64\Debug\MapLoaderPrivate.obj
+         x64\Debug\MapLoaderPublic.obj
+         x64\Debug\MapObject.obj
+         x64\Debug\pugixml.obj
+         x64\Debug\QuadTreeNode.obj
+         x64\Debug\EnemiesManager.obj
+         x64\Debug\Enemy.obj
+         x64\Debug\Entity.obj
+         x64\Debug\ExitState.obj
+         x64\Debug\Firebug.obj
+         x64\Debug\Game.obj
+         x64\Debug\GameState.obj
+         x64\Debug\HelperClass.obj
+         x64\Debug\LevelChange.obj
+         x64\Debug\LevelComplete.obj
+         x64\Debug\main.obj
+         x64\Debug\MenuState.obj
+         x64\Debug\PauseState.obj
+         x64\Debug\Pickup.obj
+         x64\Debug\Player.obj
+         x64\Debug\PlayingState.obj
+         x64\Debug\SelectLevel.obj
+         x64\Debug\SplashScreen.obj
+         x64\Debug\Star.obj
+         x64\Debug\World.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         SFML2.vcxproj -> C:\Users\Admin\Documents\Visual Studio 2012\Projects\Jet X Release\x64\Debug\Jet x.exe
+     1>Done Building Project "C:\Users\Admin\Documents\Visual Studio 2012\Projects\Jet X Release\SFML2\SFML2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:21.44

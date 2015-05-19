@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="84" height="24" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32">
+  <image source="D:/Programowanie/Projekt Platformer SFML/tiles.png" trans="ffffff" width="384" height="608"/>
+ </tileset>
+ <layer name="Background" width="84" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzt1csNgzAURFH3XwawDJ8lgbTAd0cCqSXTgoNhnq050l1nZMXYOREREfnHiCY0owWt3Dm3G1zYM3ijD9rRgb5nBxrgc0ab455BDP9n9hn5iGXnlR6oZI9ISIue7BFiWuh3mfUbvq7ac8ebY/Fds7ZHwmDeXWvfjBCYd1d3VGKXoRwV7CGJqFCNGvaQRHSoRy/2EBFJwg9CG1xs
+  </data>
+ </layer>
+ <layer name="Solid" width="84" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzt1r0KgzAUQOFAK4ZOtfYh1NWlkw/g1qX4/k/iLWSIQdrSpN4Uzwdn8QfuELwaAwAAAADfmbQHAALvzuRBOkqFq5Ssuzf8cK4tNRu/e5Yq6SLV3vUxYo49a6Wrq/OuP3TGSYJdgZykPo8auyPmO587dsfSq/P6/Kc5BdngmX/eHcgP+xyf6KX7SjfNoQAFMyPQB1k=
+  </data>
+ </layer>
+ <layer name="Foreground" width="84" height="24" opacity="0.86">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAMA6Cqr+6a2DdISAAAAAAAAAD4qJ4eU+Mr+Q==
+  </data>
+ </layer>
+ <objectgroup name="Entities" width="84" height="24">
+  <object name="Player" x="99" y="607" width="26" height="32"/>
+ </objectgroup>
+ <objectgroup name="Collision" width="84" height="24">
+  <object x="1184" y="353" width="192" height="33"/>
+  <object x="1218" y="390" width="124" height="56"/>
+  <object x="1824" y="673" width="224" height="32"/>
+  <object x="447" y="575" width="193" height="30"/>
+  <object x="96" y="640" width="31" height="32"/>
+  <object x="96" y="509" width="30" height="31"/>
+  <object x="225" y="579" width="29" height="28"/>
+  <object x="226" y="448" width="29" height="29"/>
+  <object x="735" y="514" width="31" height="91"/>
+  <object x="800" y="382" width="31" height="31"/>
+  <object x="320" y="384" width="28" height="31"/>
+  <object x="929" y="350" width="31" height="30"/>
+  <object x="1025" y="286" width="28" height="27"/>
+  <object x="1408" y="353" width="31" height="93"/>
+  <object x="1664" y="514" width="31" height="29"/>
+ </objectgroup>
+ <objectgroup name="Coins" width="84" height="24">
+  <object x="1203" y="263" width="47" height="45"/>
+  <object x="1280" y="262" width="33" height="30"/>
+  <object x="1355" y="260" width="22" height="33"/>
+  <object x="406" y="321" width="18" height="22"/>
+  <object x="419" y="354" width="25" height="30"/>
+  <object x="438" y="395" width="20" height="19"/>
+  <object x="453" y="431" width="18" height="18"/>
+  <object x="466" y="461" width="16" height="31"/>
+  <object x="479" y="503" width="8" height="19"/>
+  <object x="488" y="533" width="14" height="23"/>
+  <object x="440" y="545" width="17" height="15"/>
+  <object x="441" y="509" width="13" height="20"/>
+  <object x="289" y="517" width="14" height="23"/>
+  <object x="70" y="446" width="23" height="16"/>
+  <object x="194" y="359" width="38" height="24"/>
+  <object x="260" y="284" width="19" height="13"/>
+  <object x="738" y="364" width="32" height="27"/>
+  <object x="772" y="319" width="19" height="27"/>
+  <object x="810" y="334" width="23" height="24"/>
+  <object x="1523" y="287" width="29" height="27"/>
+  <object x="1575" y="322" width="7" height="20"/>
+  <object x="1604" y="345" width="23" height="20"/>
+  <object x="1648" y="375" width="12" height="10"/>
+  <object x="1663" y="401" width="10" height="11"/>
+  <object x="1673" y="413" width="3" height="12"/>
+  <object x="1678" y="433" width="15" height="24"/>
+  <object x="1506" y="211" width="16" height="17"/>
+  <object x="1546" y="243" width="3" height="9"/>
+  <object x="1795" y="500" width="26" height="28"/>
+  <object x="1836" y="551" width="26" height="18"/>
+  <object x="1866" y="585" width="13" height="11"/>
+ </objectgroup>
+ <objectgroup name="Springboard" width="84" height="24">
+  <object x="736" y="506" width="30" height="13"/>
+  <object x="1410" y="348" width="25" height="12"/>
+ </objectgroup>
+ <objectgroup name="Bugs" width="84" height="24"/>
+ <objectgroup name="Firebugs" width="84" height="24">
+  <object x="1280" y="318" width="32" height="34">
+   <properties>
+    <property name="left" value="3"/>
+    <property name="right" value="2"/>
+   </properties>
+  </object>
+  <object x="1919" y="643" width="32" height="26">
+   <properties>
+    <property name="left" value="3"/>
+    <property name="right" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Bats" width="84" height="24">
+  <object x="352" y="418" width="32" height="27">
+   <properties>
+    <property name="left" value="2"/>
+    <property name="right" value="4"/>
+   </properties>
+  </object>
+  <object x="545" y="537" width="31" height="29">
+   <properties>
+    <property name="left" value="6"/>
+    <property name="right" value="0"/>
+   </properties>
+  </object>
+  <object x="769" y="447" width="30" height="33">
+   <properties>
+    <property name="left" value="4"/>
+    <property name="right" value="3"/>
+   </properties>
+  </object>
+  <object x="1025" y="319" width="33" height="31">
+   <properties>
+    <property name="left" value="4"/>
+    <property name="right" value="4"/>
+   </properties>
+  </object>
+  <object x="1665" y="480" width="30" height="31">
+   <properties>
+    <property name="left" value="4"/>
+    <property name="right" value="4"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Star" width="84" height="24">
+  <object x="2199" y="695" width="48" height="35"/>
+ </objectgroup>
+ <objectgroup name="Water" width="84" height="24">
+  <object x="0" y="738" width="1078" height="34"/>
+  <object x="1078" y="739" width="1073" height="34"/>
+  <object x="2152" y="737" width="535" height="60"/>
+ </objectgroup>
+</map>
